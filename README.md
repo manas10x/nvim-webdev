@@ -17,9 +17,7 @@ A fast and minimal Neovim configuration tailored for web development with HTML, 
    ```bash
    mv ~/.config/nvim ~/.config/nvim.backup
 
-2. System Installed
-
-   1. Install prettier:
-   ```npm install -g prettier
-   2. Install emmet:
-   ```npm install ‑g emmet‑ls
+2. Install required system packages:
+   ```bash
+   npm install -g prettier
+   npm install ‑g emmet‑ls
