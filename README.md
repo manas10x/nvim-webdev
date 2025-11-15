@@ -17,7 +17,12 @@ A fast and minimal Neovim configuration tailored for web development with HTML, 
 1. Backup your existing Neovim config:
    ```bash
    mv ~/.config/nvim ~/.config/nvim.backup
-
+2. Clone the repo to .config
+   ```bash
+   git clone https://github.com/manas10x/nvim-webdev ~/.config/nvim
+3. Install Packer
+   ```bash
+   git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 2. Install Formatters/External Tools (System Installed)
    ```bash
    npm install -g prettier
