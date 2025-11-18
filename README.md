@@ -26,7 +26,7 @@ A fast and minimal Neovim configuration tailored for web development with HTML, 
 2. Install Formatters/External Tools (System Installed)
    ```bash
    npm install -g prettier
-   npm install ‑g emmet‑ls
+   npm install -g emmet‑ls
 
 ## Plugins Used
 
